@@ -4,7 +4,7 @@ hostname: kubernetes-master
 users:
   - name: core
     ssh-authorized-keys: 
-      - "<SSH_PUBLIC_KEY>"
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMKI5pJWkeNkS+UzFzNDftJ/MVIqyqmEkHbYMmWRkv3X4E1G6oDo/uvm1ahiirXEEVxYU0HZl9qbEUJcaDyld2E8FdJcYfTOcvR8GwMjAvdWHbm8SneB+4+bZkhZgbIeaJSV3Gu7WA8cJQlbk5PkCp51GPgM/I+qd9dP2vZnWWj9M0NTZ2GIyy7PWfNXIU3zAkOQEuzI46Ao4/CeGsjNo1tDiF+ZsZvaNLQ37U8/V4si18l5O/JsvbWDFE6FnW4iX2TzKxbhx1t4BOGv7v6Apz+vdJWWb9iGhLzYKJ7/H273xpUIrzwyxxbr48XTOrPJzJ+HIKah6mimjYLJUKfyon dev@yura-comp"
     groups: 
       - sudo
     shell: /bin/bash
